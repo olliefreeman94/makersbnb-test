@@ -1,1 +1,4 @@
-p "Hello world"
+require './greeter'
+
+greeter = Greeter.new
+p greeter.greet
